@@ -1,0 +1,37 @@
+﻿# Директория зависимостей Node.js
+node_modules/
+
+# Дистрибутивные файлы
+dist/
+build/
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Файлы редактора VS Code
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Тестовые покрытия
+coverage/
+.nyc_output/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
